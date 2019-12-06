@@ -4,7 +4,7 @@ import pygame
 # start running pygame
 pygame.init()
 
-width, height = 400, 300
+width, height = 900, 600
 # speed is a list because values need to be able to change
 speed = [1, 1]
 # colors are tuples because values don't change
@@ -15,7 +15,7 @@ white = (255, 255, 255)
 screen = pygame.display.set_mode( (width, height) )
 
 # Load an image
-ball = pygame.image.load("img/ball.png")
+ball = pygame.image.load("img/Buffsuki.png")
 ballrect = ball.get_rect()
 
 while True:
